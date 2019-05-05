@@ -36,14 +36,4 @@ TextAreaFieldGroup.propTypes = {
   onChange: PropTypes.func.isRequired
 };
 
-// const mapStateToProps = state => ({
-//   auth: state.auth,
-//   errors: state.errors
-// });
-
-// export default connect(
-//   mapStateToProps,
-//   { registerUser }
-// )(withRouter(Register));
-
 export default TextAreaFieldGroup;
